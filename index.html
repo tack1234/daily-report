@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="./sanitize.css">
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    <form action="" class="form" id="js-form">
+      <div class="form-list">
+        <label for="name" class="form-title">Name:</label>
+        <div class="form-field">
+          <input type="text" class="input-field" id="name" name="name">
+        </div>
+      </div>
+
+      <div class="form-list">
+        <label for="work" class="form-title">Work:</label>
+        <div class="form-field">
+          <input type="text" class="input-field" id="work" name="work">
+        </div>
+      </div>
+
+      <div class="form-list">
+        <label for="comment" class="form-title">Comment:</label>
+        <div class="form-field">
+          <textarea name="comment" id="comment" class="input-field" rows="4" cols="50"></textarea>
+        </div>
+      </div>
+
+      <div class="form-button">
+        <button class="button" type="submit">Submit</button>
+      </div>
+    </form>
+
+    <div class="history-link">
+      <a href="./">Home</a>
+      <a href="./history.html">History</a>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <!-- 新規フォルダをgitにプッシュするためのダミー -->
+  </body>
+</html>
