@@ -17,5 +17,6 @@ daily-report/
 ├── index.html
 ├── package-lock.json
 ├── package.json
+├── README.md
 └──  sanitize.css/
 ```
